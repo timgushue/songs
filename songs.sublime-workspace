@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Da",
+				"DataMapper"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"htt",
+				"httpRequest"
+			],
+			[
+				"meta",
+				"metatags"
+			],
+			[
+				"Is",
+				"IsEmpty"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"max",
+				"max_id"
+			],
+			[
+				"sent",
+				"sent_data"
+			],
+			[
+				"inbox",
+				"inbox_data"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"exa",
+				"exact_match_count"
+			],
+			[
+				"num",
+				"number_match_count"
+			],
+			[
+				"ex",
+				"exact_match_count"
+			],
+			[
+				"se",
+				"secret"
+			],
+			[
+				"PGS",
+				"PGSimple3"
+			],
+			[
+				"PGSim",
+				"PGSimple2"
+			],
+			[
+				"pr",
+				"prime_set"
+			],
+			[
+				"ma",
+				"max_prime"
+			],
+			[
+				"coun",
+				"count_frequency"
+			],
+			[
+				"pri",
+				"price_in_cents"
+			],
+			[
+				"b",
+				"book"
+			],
+			[
+				"fin",
+				"find_prime"
+			],
+			[
+				"reu",
+				"result_a"
+			],
+			[
+				"numb",
+				"number_string"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/ito/Desktop/github/songs/main.rb",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Unix",
+				"name": "require 'sinatra'"
+			}
+		},
+		{
+			"file": "/Users/ito/Desktop/github/songs/song.rb",
+			"settings":
+			{
+				"buffer_size": 357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "song.erb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layout.erb",
+			"settings":
+			{
+				"buffer_size": 946,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ito/Desktop/github/songs/views/not_found.erb",
+		"/Users/ito/Desktop/github/songs/views/home.erb",
+		"/Users/ito/Desktop/github/songs/views/about.erb",
+		"/Users/ito/Desktop/github/songs/views/contact.erb",
+		"/Users/ito/Desktop/github/songs/public/styles.css",
+		"/Users/ito/Desktop/github/blog/lib/blog.rb",
+		"/Users/ito/Desktop/github/blog/views/post.erb",
+		"/Users/ito/Desktop/github/blog/views/layout.erb",
+		"/Users/ito/Desktop/github/blog/views/index.erb",
+		"/Users/ito/Desktop/github/blog/articles/hello.md",
+		"/Users/ito/Desktop/github/blog/articles/Hello.md",
+		"/Users/ito/Desktop/github/blog/articles/updated.md",
+		"/Users/ito/Desktop/github/blog/lib/github_hook.rb",
+		"/Users/ito/Desktop/github/blog/test.rb",
+		"/Users/ito/Desktop/Up and Running with Sublime Text 2/Exercise Files/roux_website/index.htm",
+		"/Users/ito/Desktop/Up and Running with Sublime Text 2/Exercise Files/roux_website/_scripts/SpryTabbedPanels.js",
+		"/Users/ito/Desktop/debug/open_uri.rb",
+		"/Users/ito/Downloads/trains_spec.rb",
+		"/Users/ito/Desktop/debug/tweet_timeline.rb",
+		"/Users/ito/Desktop/ito-mine/textmine.r",
+		"/Users/ito/Desktop/debug/textmine.r",
+		"/Users/ito/Desktop/debug/ito_miner.rb",
+		"/Users/ito/Desktop/ito-mine/ito_miner.rb",
+		"/Users/ito/Desktop/ito_miner.rb",
+		"/Users/ito/Desktop/textmine.r",
+		"/Users/ito/Desktop/regexp.rb",
+		"/Users/ito/Desktop/timeline.rb",
+		"/Users/ito/Desktop/html-pull.rb",
+		"/Users/ito/Desktop/CODE/old_mergesort.cpp",
+		"/Users/ito/Desktop/CODE/altMergesort.cpp",
+		"/Users/ito/Desktop/BSTcpp.cpp",
+		"/Users/ito/Desktop/BstST.cpp",
+		"/Users/ito/Desktop/BST.cpp",
+		"/Users/ito/Desktop/DfsTree.cpp",
+		"/Users/ito/Desktop/LinkedStack.cpp",
+		"/Users/ito/Desktop/ListQueue.cpp",
+		"/Users/ito/Desktop/STLQueue.cpp",
+		"/Users/ito/Desktop/ArrayQueue.cpp",
+		"/Users/ito/Desktop/ArrayStack.cpp",
+		"/Users/ito/Desktop/ito-mine/timeline.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/credentials.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/alpha_timeline.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/tm_timeline.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/alpha_tm_timeline.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/tm_timeline.r.Rout",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/a_cottontail.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/cottontails.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/gmail_mine/mails_by_day_of_week_edit.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/credential.r.Rout",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/gushueCrawl.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/twitter_api/verify_credentials.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/twitter_api/parse_user_obj.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/twitter_api/read_tweet.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/twitter_mine/twitter_api/read_timeline.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/gmail_mine/mails_by_day_of_month_edit.r",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/gmail_mine/test1.rb",
+		"/Users/ito/Desktop/Current_work/programing_projects/ito_mine/gmail_mine/test2.rb",
+		"/Users/ito/Desktop/button.rb",
+		"/Users/ito/Desktop/stopwatch.rb",
+		"/Users/ito/Desktop/doodler.rb",
+		"/Users/ito/Desktop/HW3/wrdcount.py",
+		"/Users/ito/Desktop/culminating/labReport_4/super_tim/plot1.m",
+		"/Users/ito/Desktop/index.html",
+		"/Users/ito/Desktop/rSpec/codebreaker/spec/codebreaker/game_spec.rb",
+		"/Users/ito/Desktop/foo.rb",
+		"/Users/ito/Desktop/wrdcount.py",
+		"/Users/ito/Desktop/rSpec/codebreaker/lib/codebreaker/game.rb",
+		"/Users/ito/Desktop/rSpec/codebreaker/bin/codebreaker",
+		"/Users/ito/Desktop/rSpec/codebreaker/spec/spec_helper.rb",
+		"/Users/ito/Desktop/rSpec/codebreaker/features/step_definitions/codebreaker_steps.rb",
+		"/Users/ito/Desktop/rSpec/codebreaker/lib/codebreaker.rb",
+		"/Users/ito/Desktop/rSpec/codebreaker/features/support/env.rb",
+		"/Users/ito/Desktop/ProjectEuler/PGsimple1.rb",
+		"/Users/ito/Desktop/ProjectEuler/PE7.rb",
+		"/Users/ito/Desktop/ProjectEuler/PGsimple3.rb",
+		"/Users/ito/Desktop/rSpec/ch2/features/greeter_says_hello.feature",
+		"/Users/ito/Desktop/rSpec/ch2/features/step_definitions/greeter_steps.rb",
+		"/Users/ito/Desktop/rSpec/ch2/greeter_says_hello.feature",
+		"/Users/ito/Desktop/rSpec/ch2/greeter_spec.rb",
+		"/Users/ito/Desktop/progRuby/ch4/words_from_string.rb",
+		"/Users/ito/Desktop/progRuby/ch4/count_frequency.rb",
+		"/Users/ito/Desktop/progRuby/ch4/fibonacci.rb",
+		"/Users/ito/Desktop/ProjectEuler/PE1.rb",
+		"/Users/ito/Desktop/ProjectEuler/PE4.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Serial",
+			"data",
+			"username",
+			"screen_name",
+			"sites",
+			"addNode",
+			"top",
+			"LinkedStack",
+			"MAX",
+			"myCorpus",
+			"myTdm",
+			"sent_data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"address",
+			"twitter_username",
+			"http_address",
+			"insert",
+			"head",
+			"Node",
+			"max_pull",
+			"tCorpus",
+			"tdm",
+			"tweet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/ito/Desktop/github/songs/main.rb",
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"auto_name": "require 'sinatra'",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ito/Desktop/github/songs/song.rb",
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "song.erb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layout.erb",
+					"settings":
+					{
+						"buffer_size": 946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true
+}

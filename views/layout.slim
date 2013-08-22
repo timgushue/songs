@@ -1,0 +1,22 @@
+DOCTYPE html
+html lang="en"
+	head
+		meta charset="UTF-8"
+		title== @title || "Songs By Sinatra"
+		meta name="viewport" content="width=device-width, initial-scale=1.0"
+		link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"
+		link href="/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"
+	body
+		header
+			div class="navbar"
+				div class="navbar-inner"
+					<a class="brand" href="/">Songs By Sinatra</a>
+					ul class="nav"
+						li <a href="/" title="Home">Home</a>
+						li <a href="/songs" title="Songs">Songs</a>
+						li <a href="/about" title="About">About</a>
+						li <a href="/contact" title="Contact">Contact</a>
+	section
+		== yield 
+	<script src="/js/jquery-1.10.2.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>

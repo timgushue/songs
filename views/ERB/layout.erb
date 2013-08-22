@@ -1,0 +1,32 @@
+<% title= "Songs by Sinatra" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= @title || "Songs By Sinatra"%></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand"href="/">Songs By Sinatra</a>
+				<ul class="nav">
+					<li class="active"><a href="/" title="Home">Home</a></li>
+					<li><a href="/about" title="About">About</a></li>
+					<li><a href="/contact" title="Contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+<section>
+	<%= yield %>
+</section>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
