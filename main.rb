@@ -16,6 +16,14 @@ configure do
 	set :password, 'sinatra'
 end
 
+helpers do
+	def css(*stylesheets)
+		stylesheets.map do |stylesheet|
+			"<link href=\"/#{stylesheet}\" media=\"screen, projection\" rel=\"stylesheet\" />"
+		end.join
+	end
+end
+
 get '/' do
 	slim :home
 end

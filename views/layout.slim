@@ -6,15 +6,19 @@ html lang="en"
 		meta name="viewport" content="width=device-width, initial-scale=1.0"
 		link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"
 		link href="/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"
+		== css :custom
 	body
 		header
 			nav class="navbar navbar-default" role="navigation"
 				div class="navbar-header"
-					<a class="navbar-brand" href="/">Sinatra</a>
+					a class="navbar-brand" href=="/" Sinatra
 					ul class="nav navbar-nav"
-						li <a href="/songs" title="Songs">Songs</a>
-						li <a href="/about" title="About">About</a>
-						li <a href="/contact" title="Contact">Contact</a>
+						li 
+							a href=="/songs" title="Songs" Songs
+						li 
+							a href=="/about" title="About" About
+						li 
+							a href=="/contact" title="Contact" Contact
 	section
 		== yield 
 	<script src="/js/jquery-1.10.2.min.js"></script>
