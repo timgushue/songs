@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"Da",
-				"DataMapper"
+				"li",
+				"li	Tag"
 			],
 			[
-				"li",
-				"link	Tag"
+				"Da",
+				"DataMapper"
 			],
 			[
 				"fo",
@@ -124,35 +124,43 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/ito/Desktop/github/songs/main.rb",
+			"file": "main.rb",
 			"settings":
 			{
-				"buffer_size": 200,
+				"buffer_size": 220,
 				"line_ending": "Unix",
 				"name": "require 'sinatra'"
 			}
 		},
 		{
-			"file": "/Users/ito/Desktop/github/songs/song.rb",
+			"file": "song.rb",
 			"settings":
 			{
-				"buffer_size": 357,
+				"buffer_size": 970,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "song.erb",
+			"file": "views/layout.slim",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 772,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "layout.erb",
+			"file": "views/show_song.slim",
 			"settings":
 			{
-				"buffer_size": 946,
+				"buffer_size": 417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/songs.slim",
+			"settings":
+			{
+				"buffer_size": 195,
 				"line_ending": "Unix"
 			}
 		}
@@ -181,6 +189,22 @@
 	},
 	"file_history":
 	[
+		"/Users/ito/Desktop/github/songs/views/showSong.slim",
+		"/Users/ito/Desktop/github/songs/public/css/styles.css",
+		"/Users/ito/Desktop/github/songs/views/show_songs.slim",
+		"/Users/ito/Desktop/github/songs/views/new_song.slim",
+		"/Users/ito/Desktop/github/songs/views/song_form.slim",
+		"/Users/ito/Desktop/github/songs/views/edit_song.slim",
+		"/Users/ito/Desktop/github/songs/views/songs.slim",
+		"/Users/ito/Desktop/github/songs/views/not_found.slim",
+		"/Users/ito/Desktop/github/songs/views/show_song.slim",
+		"/Users/ito/Desktop/github/songs/views/contact.slim",
+		"/Users/ito/Desktop/github/songs/views/about.slim",
+		"/Users/ito/Desktop/github/songs/views/layout.slim",
+		"/Users/ito/Desktop/github/songs/views/songs.erb",
+		"/Users/ito/Desktop/github/songs/views/home.slim.rhtml",
+		"/Users/ito/Desktop/github/songs/layout.erb",
+		"/Users/ito/Desktop/github/songs/songs.erb",
 		"/Users/ito/Desktop/github/songs/views/not_found.erb",
 		"/Users/ito/Desktop/github/songs/views/home.erb",
 		"/Users/ito/Desktop/github/songs/views/about.erb",
@@ -272,9 +296,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -282,6 +307,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"",
+			"erb",
+			"/ul",
+			"/div",
+			"/head",
+			"head",
+			" /",
+			">",
+			"<",
 			"Serial",
 			"data",
 			"username",
@@ -301,6 +335,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"address",
 			"twitter_username",
 			"http_address",
@@ -326,18 +361,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/ito/Desktop/github/songs/main.rb",
+					"file": "main.rb",
 					"settings":
 					{
-						"buffer_size": 200,
+						"buffer_size": 220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								51,
+								51
 							]
 						],
 						"settings":
@@ -353,18 +388,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/ito/Desktop/github/songs/song.rb",
+					"file": "song.rb",
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								42,
+								42
 							]
 						],
 						"settings":
@@ -379,10 +414,37 @@
 				},
 				{
 					"buffer": 2,
-					"file": "song.erb",
+					"file": "views/layout.slim",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/show_song.slim",
+					"settings":
+					{
+						"buffer_size": 417,
 						"regions":
 						{
 						},
@@ -395,7 +457,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -404,24 +466,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "layout.erb",
+					"buffer": 4,
+					"file": "views/songs.slim",
 					"settings":
 					{
-						"buffer_size": 946,
+						"buffer_size": 195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								791,
-								791
+								195,
+								195
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
