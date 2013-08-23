@@ -1,9 +1,6 @@
 require 'dm-core'
 require 'dm-migrations'
 
-configure :development do
-	DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
-end
 
 class Song
 	include DataMapper::Resource
@@ -57,7 +54,7 @@ end
 
 get '/songs/:id/edit' do
 	@song = Song.get(params[:id])
-	slim :show_song
+	slim :edit_song
 end
 
 
