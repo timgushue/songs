@@ -5,7 +5,7 @@ div class="form-group"
 	label for="length" class="control-label" Length
 	input id="length" class="form-control" type="text" name="song[length]" value="#{@song.length}"
 div class="form-group"
-	label for="released_on" class="control-label" Date(mm/dd/yy):
+	label for="released_on" class="control-label" Date(mm/dd/yyyy):
 	input id="released_on" class="form-control" type="text" name="song[released_on]" value="#{@song.released_on.strftime("%m/%d/%Y") if @song.released_on}"
 div class="form-group"
 	label for="lyrics" class="control-label" Lyrics:
