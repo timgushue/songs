@@ -1,13 +1,12 @@
 div class="container"
 	div class="row"
-		div class="span6 offset2"
+		div class="col-md-6"
 			h1 Songs
 			a href="/songs/new" Create a new song
 			- if @songs.any? 
-				div class="span4"
-					ul#songs 
-						-@songs.each do |song|
-							li class="list-unstyled" <a href="/songs/#{song.id}">#{song.title}</a>
+				ul id="songs" class="list-group" 
+					-@songs.each do |song|
+						li class="list-group-item" <a href="/songs/#{song.id}">#{song.title}</a>
 			- else
 				p No songs have been created yet!
 	
