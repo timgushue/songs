@@ -1,9 +1,16 @@
-label for="title" Title:
-input#title type="text" name="song[title]" value="#{@song.title}"
-label for="length" Length:
-input#length type="number" name="song[length]" value="#{@song.length}"
-label for="released_on" Date(mm/dd/yy):
-input#released_on type="text" name="song[released_on]" value="#{@song.released_on.strftime("%m/%d/%Y") if @song.released_on}"
-label for="lyrics" Lyrics:
-textarea#lyrics name="song[lyrics]" == @song.lyrics
-input type="submit" value="Save Song"
+div class="form-group"
+	label for="title" class="control-label" Title:
+	input id="title" class="form-control" type="text" name="song[title]" value="#{@song.title}"
+div class="form-group"
+	label for="length" class="control-label" Length
+	input id="length" class="form-control" type="text" name="song[length]" value="#{@song.length}"
+div class="form-group"
+	label for="released_on" class="control-label" Date(mm/dd/yy):
+	input id="released_on" class="form-control" type="text" name="song[released_on]" value="#{@song.released_on.strftime("%m/%d/%Y") if @song.released_on}"
+div class="form-group"
+	label for="lyrics" class="control-label" Lyrics:
+	textarea id="lyrics" class="form-control" name="song[lyrics]" == @song.lyrics
+div class="form-group"
+		button type="submit" class="btn btn-default" Save Song
+
+

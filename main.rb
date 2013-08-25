@@ -22,6 +22,10 @@ helpers do
 			"<link href=\"/#{stylesheet}\" media=\"screen, projection\" rel=\"stylesheet\" />"
 		end.join
 	end
+
+	def current?(path='/')
+		(request.path==path || request.path==path+'/') ? "current" : nil
+	end
 end
 
 get '/' do
@@ -54,3 +58,5 @@ end
 not_found do
 	slim :not_found
 end
+
+

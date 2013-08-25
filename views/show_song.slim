@@ -1,13 +1,14 @@
 div class="container"
 	div class="row"
-		div class="span6 offset2"
+		div class="col-md-6 col-md-offset-2"
 			h1= @song.title
 			p Release Date: #{@song.released_on.strftime("%e %B %Y") if @song.released_on}
 			p Length: #{@song.length/60} minutes #{@song.length%60} seconds
-			div class="span6"
+			div class="col-md-4"
 				pre= @song.lyrics
 			p <a href="/songs">back to songs index</a>
 			p <a href="/songs/#{@song.id}/edit">edit this song</a>
-			form action="/song/#{@song.id}" method="POST"
+			form role="form" class="form-horizontal col-sm-3" method="POST" action="/song/#{@song.id}"
 				input type="hidden" name="_method" value="DELETE"
-				input type="submit" value="delete this song"
+				button type="submit" class="btn btn-default" Delete this song
+
