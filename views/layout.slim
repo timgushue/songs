@@ -17,6 +17,11 @@ html lang="en"
 					li <a class="current?("/contact")" href="/contact" title="Contact">Contact</a>
 	section
 		== styled_flash
-		== yield 
+		== yield
+	footer
+		- if authorized?
+			a href="/logout" log out
+		-	else
+			a href="/login" log in	 
 	<script src="/js/jquery-1.10.2.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
