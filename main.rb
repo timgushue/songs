@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'slim'
 require 'sinatra/flash'
+require 'pony'
+require './email'
 require './song'
 
 
