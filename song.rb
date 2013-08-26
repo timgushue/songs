@@ -8,7 +8,8 @@ class Song
 	property :title, String
 	property :lyrics, Text
 	property :length, Integer
-	property :released_on, Date 
+	property :released_on, Date
+	property :likes, Integer, :default => 0 
 
 	def released_on=date
 		super Date.strptime(date, '%m/%d/%Y')
@@ -77,6 +78,15 @@ get '/songs/:id/edit' do
 	@song = find_song
 	slim :edit_song
 end
+
+post '/songs/:id/like' do
+	@song = find_song
+	@song.likes = @song.likes.next
+	@song.save
+	redirect to("/songs/#{@song.id}") unless request.xhr?
+	slim :like, :layout => false
+end
+
 
 
 

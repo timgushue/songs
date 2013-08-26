@@ -6,6 +6,10 @@ div class="container"
 			p Length: #{@song.length/60} minutes #{@song.length%60} seconds
 			div class="col-md-4"
 				pre= @song.lyrics
+			div class="col-md-4"
+				== slim :like
+				form action="/songs/#{@song.id}/like" method="POST"
+					button type="submit" class="btn btn-primary btn-lg" Like	
 			p <a href="/songs">back to songs index</a>
 			p <a href="/songs/#{@song.id}/edit">edit this song</a>
 			form role="form" class="form-horizontal col-sm-3" method="POST" action="/songs/#{@song.id}"
