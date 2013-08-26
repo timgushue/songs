@@ -2,6 +2,8 @@ require 'sinatra'
 require 'slim'
 require 'sinatra/flash'
 require 'pony'
+require 'v8'
+require 'coffee-script'
 require './email'
 require './sinatra/auth'
 require './song'
@@ -20,6 +22,8 @@ helpers do
 		(request.path==path || request.path==path+'/') ? "current" : nil
 	end
 end
+
+get('/js/application.js'){coffee :application}
 
 get '/' do
 	slim :home
