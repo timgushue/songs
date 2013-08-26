@@ -12,10 +12,11 @@ html lang="en"
 				div class="navbar-header"
 					<a class="navbar-brand current?" href="/" title="Home">Sinatra</a>
 				ul class="nav navbar-nav"
-					li <a href="/songs" title="Songs">Songs</a>
-					li <a href="/about" title="About">About</a>
-					li <a href="/contact" title="Contact">Contact</a>
+					li <a class="current?("/songs")" href="/songs" title="Songs">Songs</a>
+					li <a class="current?("/about")" href="/about" title="About">About</a>
+					li <a class="current?("/contact")" href="/contact" title="Contact">Contact</a>
 	section
+		== styled_flash
 		== yield 
 	<script src="/js/jquery-1.10.2.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>

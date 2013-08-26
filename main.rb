@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'slim'
+require 'sinatra/flash'
 require './song'
+
 
 configure :development do
 	DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
@@ -17,12 +19,6 @@ configure do
 end
 
 helpers do
-	def css(*stylesheets)
-		stylesheets.map do |stylesheet|
-			"<link href=\"/#{stylesheet}\" media=\"screen, projection\" rel=\"stylesheet\" />"
-		end.join
-	end
-
 	def current?(path='/')
 		(request.path==path || request.path==path+'/') ? "current" : nil
 	end
@@ -53,6 +49,12 @@ end
 
 get '/contact' do
 	slim :contact
+end
+
+post '/contact' do
+	send_message
+	flash[:message] = "Thanks for your message."
+	redirect to('/')
 end
 
 not_found do
