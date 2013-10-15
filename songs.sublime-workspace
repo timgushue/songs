@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"local",
+				"localdomain"
+			],
+			[
+				"find",
+				"find_song"
+			],
+			[
+				"create",
+				"create_song"
+			],
+			[
+				"Song",
+				"SongHelpers"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
 				"li",
 				"li	Tag"
 			],
@@ -127,16 +147,15 @@
 			"file": "main.rb",
 			"settings":
 			{
-				"buffer_size": 220,
-				"line_ending": "Unix",
-				"name": "require 'sinatra'"
+				"buffer_size": 781,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "song.rb",
 			"settings":
 			{
-				"buffer_size": 970,
+				"buffer_size": 1410,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,7 +163,15 @@
 			"file": "views/layout.slim",
 			"settings":
 			{
-				"buffer_size": 772,
+				"buffer_size": 1135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/application.coffee",
+			"settings":
+			{
+				"buffer_size": 262,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,15 +179,15 @@
 			"file": "views/show_song.slim",
 			"settings":
 			{
-				"buffer_size": 417,
+				"buffer_size": 773,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/songs.slim",
+			"file": "views/like.slim",
 			"settings":
 			{
-				"buffer_size": 195,
+				"buffer_size": 187,
 				"line_ending": "Unix"
 			}
 		}
@@ -189,18 +216,29 @@
 	},
 	"file_history":
 	[
+		"/Users/ito/Desktop/github/songs/views/contact.slim",
+		"/Users/ito/Desktop/github/songs/sinatra/auth.rb",
+		"/Users/ito/Desktop/github/songs/auth.rb",
+		"/Users/ito/Desktop/github/songs/views/unauthorized.slim",
+		"/Users/ito/Desktop/github/songs/email.rb",
+		"/Users/ito/Desktop/github/songs/views/song_form.slim",
+		"/Users/ito/Desktop/github/songs/views/layout.slim",
+		"/Users/ito/Desktop/github/songs/views/songs.slim",
+		"/Users/ito/Desktop/github/songs/views/show_song.slim",
+		"/Users/ito/Desktop/github/songs/views/not_found.slim",
+		"/Users/ito/Desktop/github/songs/views/home.slim",
+		"/Users/ito/Desktop/github/songs/views/new_song.slim",
+		"/Users/ito/Desktop/github/songs/views/about.slim",
+		"/Users/ito/Desktop/github/songs/views/login.slim",
+		"/Users/ito/Desktop/github/songs/public/css/custom.css",
+		"/Users/ito/Desktop/github/songs/views/edit_song.slim",
+		"/Users/ito/Desktop/github/songs/config.ru",
+		"/Users/ito/Desktop/github/songs/Gemfile",
+		"/Users/ito/Desktop/github/songs/main.rb",
+		"/Users/ito/Desktop/github/songs/song.rb",
 		"/Users/ito/Desktop/github/songs/views/showSong.slim",
 		"/Users/ito/Desktop/github/songs/public/css/styles.css",
 		"/Users/ito/Desktop/github/songs/views/show_songs.slim",
-		"/Users/ito/Desktop/github/songs/views/new_song.slim",
-		"/Users/ito/Desktop/github/songs/views/song_form.slim",
-		"/Users/ito/Desktop/github/songs/views/edit_song.slim",
-		"/Users/ito/Desktop/github/songs/views/songs.slim",
-		"/Users/ito/Desktop/github/songs/views/not_found.slim",
-		"/Users/ito/Desktop/github/songs/views/show_song.slim",
-		"/Users/ito/Desktop/github/songs/views/contact.slim",
-		"/Users/ito/Desktop/github/songs/views/about.slim",
-		"/Users/ito/Desktop/github/songs/views/layout.slim",
 		"/Users/ito/Desktop/github/songs/views/songs.erb",
 		"/Users/ito/Desktop/github/songs/views/home.slim.rhtml",
 		"/Users/ito/Desktop/github/songs/layout.erb",
@@ -296,7 +334,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -307,6 +345,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jquery",
 			"\"",
 			"erb",
 			"/ul",
@@ -356,7 +395,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -364,24 +403,23 @@
 					"file": "main.rb",
 					"settings":
 					{
-						"buffer_size": 220,
+						"buffer_size": 781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								460,
+								460
 							]
 						],
 						"settings":
 						{
-							"auto_name": "require 'sinatra'",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 106.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -391,23 +429,24 @@
 					"file": "song.rb",
 					"settings":
 					{
-						"buffer_size": 970,
+						"buffer_size": 1410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42,
-								42
+								1395,
+								1395
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 833.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -417,15 +456,15 @@
 					"file": "views/layout.slim",
 					"settings":
 					{
-						"buffer_size": 772,
+						"buffer_size": 1135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								741,
-								741
+								349,
+								349
 							]
 						],
 						"settings":
@@ -441,23 +480,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "views/show_song.slim",
+					"file": "views/application.coffee",
 					"settings":
 					{
-						"buffer_size": 417,
+						"buffer_size": 262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								256,
+								256
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -467,18 +506,45 @@
 				},
 				{
 					"buffer": 4,
-					"file": "views/songs.slim",
+					"file": "views/show_song.slim",
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								195
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/like.slim",
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
 							]
 						],
 						"settings":
